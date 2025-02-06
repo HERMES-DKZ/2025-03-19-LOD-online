@@ -488,6 +488,7 @@ during the workshop.
 {% elsif site.carpentry == "lc" %}
 {% include lc/setup.html %}
 {% elsif site.carpentry == "incubator" %}
+{% include install_instructions/openrefine.html %}
 Please check the "Setup" page of
 <a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for instructions to follow
 to obtain the software and data you will need to follow the lesson.
