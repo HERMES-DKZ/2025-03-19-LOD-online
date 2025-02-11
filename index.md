@@ -92,10 +92,10 @@ the pitch.
 {% endcomment %}
 
 <p>
-<strong><a href="https://carpentries.org">Das Carpentries</a></strong> Projekt umfasst die <a
+<strong><a href="https://carpentries.org">Das Carpentries</a></strong>-Projekt umfasst die <a
 href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data Carpentry</a>, und
-<a href="{{site.lc_site}}">Library Carpentry</a> Communities von Instructor, Trainer, Maintainer,
-Helper und Supporter, die sich zum Ziel gesetzt haben, Forschenden Grundkenntnisse in Informatik und Datenwissenschaft zu vermitteln.
+<a href="{{site.lc_site}}">Library Carpentry</a> Communities von Instructorn, Trainern, Maintainern,
+Helpern und Supportern, die sich zum Ziel gesetzt haben, Forschenden Grundkenntnisse in Informatik und Datenwissenschaft zu vermitteln.
 <p align="center">
   <em>
   <strong>Möchten Sie mehr erfahren und mit The Carpentries verbunden bleiben?</strong> Carpentries Clippings ist der zweiwöchentlich erscheinende Newsletter von The Carpentries, in dem wir Neuigkeiten aus der Community, Stellenausschreibungen und vieles mehr mitteilen.
