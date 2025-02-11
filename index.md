@@ -92,15 +92,14 @@ the pitch.
 {% endcomment %}
 
 <p>
-<strong><a href="https://carpentries.org">The Carpentries</a></strong> project comprises the <a
-href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data Carpentry</a>, and
-<a href="{{site.lc_site}}">Library Carpentry</a> communities of Instructors, Trainers, Maintainers,
-helpers, and supporters who share a mission to teach foundational computational and data science
-skills to researchers.
+<strong><a href="https://carpentries.org">Das Carpentries</a></strong> Projekt umfasst die <a
+href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data Carpentry</a>, und
+<a href="{{site.lc_site}}">Library Carpentry</a> Communities von Instructor, Trainer, Maintainer,
+Helper und Supporter, die sich zum Ziel gesetzt haben, Forschenden Grundkenntnisse in Informatik und Datenwissenschaft zu vermitteln.
 <p align="center">
   <em>
-  <strong>Want to learn more and stay engaged with The Carpentries?</strong> Carpentries Clippings is The Carpentries' biweekly newsletter, where we share community news, community job postings, and more.
-Sign up to receive future editions and read our full archive: <a href="https://carpentries.org/newsletter/">https://carpentries.org/newsletter/</a>
+  <strong>Möchten Sie mehr erfahren und mit The Carpentries verbunden bleiben?</strong> Carpentries Clippings ist der zweiwöchentlich erscheinende Newsletter von The Carpentries, in dem wir Neuigkeiten aus der Community, Stellenausschreibungen und vieles mehr mitteilen.
+Melden Sie sich an, um künftige Ausgaben zu erhalten und unser vollständiges Archiv zu lesen: <a href="https://carpentries.org/newsletter/">https://carpentries.org/newsletter/</a>
   </em>
 </p>
 {% if site.carpentry == "swc" %}
@@ -112,7 +111,7 @@ Sign up to receive future editions and read our full archive: <a href="https://c
 {% endif %}
 
 {% if site.pilot %}
-This is a pilot workshop, testing out a lesson that is still under development. The lesson authors would appreciate any feedback you can give them about the lesson content and suggestions for how it could be further improved.
+Dies ist ein Pilot-Workshop, in dem eine Lektion getestet wird, die noch in der Entwicklung ist. Die Autoren der Lektion freuen sich über jedes Feedback zum Inhalt der Lektion und über Vorschläge, wie sie weiter verbessert werden kann.
 {% endif %}
 
 {% comment %}
@@ -167,8 +166,8 @@ address.
 </p>
 {% elsif online == "true_private" %}
 <p id="where">
-  <strong>Where:</strong> This training will take place online.
-  The instructors will provide you with the information you will need to connect to this meeting.
+  <strong>Wo:</strong> Dieser Workshop findet online statt.
+  Die Instructor und Workshop-Hosts werden Ihnen die Informationen geben, die Sie für die Teilnahme an diesem Treffen benötigen.
 </p>
 {% endif %}
 
@@ -179,7 +178,7 @@ This block displays the date and links to Google Calendar.
 {% endcomment %}
 {% if page.humandate %}
 <p id="when">
-  <strong>When:</strong>
+  <strong>Wann:</strong>
   {{page.humandate}}; {{page.humantime}}
   {% include workshop_calendar.html %}
 </p>
@@ -191,15 +190,15 @@ SPECIAL REQUIREMENTS
 Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong>
+  <strong>Anforderungen:</strong>
   {% if online == "false" %}
-    Participants must bring a laptop with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
+    Die Teilnehmer:innen müssen einen Laptop mit einem
+    Mac-, Linux- oder Windows-Betriebssystem (kein Tablet, Chromebook usw.) mitbringen, auf dem sie über administrative Rechte verfügen.
   {% else %}
-    Participants must have access to a computer with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
+    Die Teilnehmer:innen müssen einen Laptop mit einem
+    Mac-, Linux- oder Windows-Betriebssystem (kein Tablet, Chromebook usw.) mitbringen, auf dem sie über administrative Rechte verfügen.
   {% endif %}
-  They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+   Sie sollten einige spezielle Softwarepakete installiert haben (siehe <a href="#setup">unten</a>).
 </p>
 
 {% comment %}
@@ -209,9 +208,8 @@ Modify the block below if there are any barriers to accessibility or
 special instructions.
 {% endcomment %}
 <p id="accessibility">
-  <strong>Accessibility:</strong>
-  We are committed to making this workshop
-  accessible to everybody. 
+  <strong>Zugänglichkeit:</strong>
+  Wir sind bestrebt, diesen Workshop für alle zugänglich zu machen. 
 {% if online == "false" %}
   The workshop organizers have checked that:
 <p>
@@ -221,20 +219,17 @@ special instructions.
   </ul>
 {% endif %}
 </p>
-<p>We are dedicated to providing a positive and accessible learning environment for all. 
-  We do not require participants to provide documentation of disabilities or disclose any unnecessary personal information. 
-  However, we do want to help create an inclusive, accessible experience for all participants. 
-  We encourage you to share any information that would be helpful to make your Carpentries experience accessible.
-  To request an accommodation for this workshop, please fill out the 
-  <a href="https://carpentries.typeform.com/to/B2OSYaD0">accommodation request form</a>.
-  If you have questions or need assistance with the accommodation form please <a href="mailto:team@carpentries.org">email us</a>.
+<p>Wir sind bestrebt, ein positives und zugängliches Lernumfeld für alle zu schaffen. 
+  Wir verlangen von den Teilnehmer:innen keine Unterlagen über Behinderungen oder die Offenlegung unnötiger persönlicher Informationen. 
+  Wir möchten jedoch dazu beitragen, dass alle Teilnehmer:innen ein integratives, zugängliches Erlebnis haben. 
+  Wir ermutigen Sie, uns alle Informationen mitzuteilen, die hilfreich sind, um Ihre Carpentries-Erfahrung zugänglich zu machen.
+  Um eine Hilfsmittel für diesen Workshop zu beantragen, füllen Sie bitte das  
+  <a href="https://carpentries.typeform.com/to/B2OSYaD0"> Formular zur Beantragung</a> aus.
+  Wenn Sie Fragen haben oder Hilfe beim Ausfüllen des Formulars benötigen, schreiben Sie uns bitte eine <a href="mailto:team@carpentries.org">E-Mail</a> 
+  an uns.
 </p>
 <p>
-  <a href="https://glosario.carpentries.org/">Glosario</a> is a multilingual glossary 
-  for computing and data science terms. The glossary helps 
-  learners attend workshops and use our lessons to make sense of computational and programming jargon written in English by offering it 
-  in their native language. Translating data science terms also provides a teaching tool for Carpentries Instructors to reduce barriers 
-  for their learners.
+  <a href="https://glosario.carpentries.org/">Glosario</a> ist ein mehrsprachiges Glossar für Begriffe aus dem Bereich Informatik und Datenwissenschaft. Das Glossar hilft Lernenden, die an Workshops teilnehmen und unsere Lektionen nutzen, den Sinn von Computer- und Programmierjargon in englischer Sprache zu verstehen, indem es in ihrer Muttersprache angeboten wird. Die Übersetzung von Begriffen aus der Datenwissenschaft ist auch ein Lehrmittel für Carpentries-Lehrer, um Barrieren für ihre Lernenden abzubauen.
 </p>
 
 {% comment %}
@@ -243,8 +238,8 @@ CONTACT EMAIL ADDRESS
 Display the contact email address set in the configuration file.
 {% endcomment %}
 <p id="contact">
-  <strong>Contact:</strong>
-  Please email
+  <strong>Kontakt:</strong>
+  Schreiben Sie an
   {% if page.email %}
   {% for email in page.email %}
   {% if forloop.last and page.email.size > 1 %}
@@ -259,13 +254,14 @@ Display the contact email address set in the configuration file.
   {% else %}
   to-be-announced
   {% endif %}
-  for more information.
+  für mehr Informationen.
 </p>
 
+
 <p id="roles">
-  <strong>Roles:</strong>
-  To learn more about the roles at the workshop (who will be doing what),
-  refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
+  <strong>Rollen:</strong>
+  Um mehr über die Rollen beim Workshop zu erfahren (wer was macht),
+  lesen Sie <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">unsere Workshop-FAQs</a>.
 </p>
 
 {% comment %}
@@ -297,12 +293,12 @@ CODE OF CONDUCT
 <h2 id="code-of-conduct">Code of Conduct</h2>
 
 <p>
-Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
+Jeder, der an den Aktivitäten von The Carpentries teilnimmt, ist verpflichtet, den <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Verhaltenskodex</a> einzuhalten. In diesem Dokument wird auch beschrieben, wie ein Vorfall zu melden ist.
 </p>
 
 <p class="text-center">
   <a href="https://goo.gl/forms/KoUfO53Za3apOuOK2">
-    <button type="button" class="btn btn-info">Report a Code of Conduct Incident</button>
+    <button type="button" class="btn btn-info">Einen Code of Conduct Vorfall melden</button>
   </a>
 </p>
 <hr/>
@@ -322,10 +318,10 @@ Note we also have a CodiMD (the open-source version of HackMD)
 available at https://codimd.carpentries.org
 {% endcomment %}
 {% if page.collaborative_notes %}
-<h2 id="collaborative_notes">Collaborative Notes</h2>
+<h2 id="collaborative_notes">Kollaboratives Pad</h2>
 
 <p>
-We will use this <a href="{{ page.collaborative_notes }}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+Wir werden dieses <a href="{{ page.collaborative_notes }}">kollaborative Dokument</a> zum Chatten, für Notizen und zum Austausch von URLs und Codeblöcken verwenden.
 </p>
 <hr/>
 {% endif %}
@@ -334,8 +330,8 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 {% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
-<h2 id="surveys">Surveys</h2>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
+<h2 id="surveys">Umfragen</h2>
+<p>Bitte stellen Sie sicher, dass Sie diese Umfragen vor und nach dem Workshop ausfüllen.</p>
 {% if site.carpentry == "incubator" %}
 <p><a href="{{ site.incubator_pre_survey }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.incubator_post_survey }}">Post-workshop Survey</a></p>
@@ -419,7 +415,7 @@ please preview your site before committing, and make sure to run
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a
+  Zur Teilnahme an einem
   {% if site.carpentry == "swc" %}
   Software Carpentry
   {% elsif site.carpentry == "dc" %}
@@ -427,14 +423,14 @@ please preview your site before committing, and make sure to run
   {% elsif site.carpentry == "lc" %}
   Library Carpentry
   {% endif %}
-  workshop,
-  you will need access to software as described below.
-  In addition, you will need an up-to-date web browser.
+  Workshop,
+  benötigen Sie Zugang zu der unten beschriebenen Software.
+  Darüber hinaus benötigen Sie einen aktuellen Webbrowser.
 </p>
 <p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+  Wir führen eine Liste mit häufigen Problemen, die während der Installation auftreten, als Referenz für Instructor
+  die nützlich sein können auf der
+  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Konfigurationsprobleme und Lösungen Wiki-Seite</a>.
 </p>
 
 {% comment %}
