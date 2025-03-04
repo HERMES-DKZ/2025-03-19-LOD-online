@@ -334,10 +334,9 @@ Wir werden dieses <a href="{{ page.collaborative_notes }}">kollaborative Dokumen
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Umfragen</h2>
-<p>Bitt stell sicher, dass Du diese Umfragen vor und nach dem Workshop ausfüllst.</p>
+<p>Da wir in diesem Pilot-Workshop eine neue Lektion mit frischen Inhalten testen, sind wir auf Dein ausführliches Feedback angewiesen. Deine Rückmeldung hilft uns, die Lektion kontinuierlich zu verbessern. Bitte nimm Dir nach dem Workshop einen Moment Zeit, um die Umfrage auszufüllen.</p>
 {% if site.carpentry == "incubator" %}
-<p><a href="{{ site.incubator_pre_survey }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.incubator_post_survey }}">Post-workshop Survey</a></p>
+<p>Post-Workshop Umfrage (Link folgt)</p>
 {% elsif site.incubator_pre_survey or site.incubator_post_survey %}
 <div class="alert alert-danger">
 WARNING: you have defined custom pre- and/or post-survey links for
