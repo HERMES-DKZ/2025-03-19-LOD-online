@@ -377,7 +377,7 @@ of code below the Schedule `<h2>` header below with
 `{% include custom-schedule.html %}`.
 {% endcomment %}
 
-<h2 id="schedule">Schedule</h2>
+<h2 id="schedule">Zeitplan</h2>
 
 {% if site.carpentry == "swc" %}
 {% include swc/schedule.html %}
@@ -398,6 +398,38 @@ how one of these schedule tables is constructed.
 {% if site.pilot %}
  Dieser Workshop befindet sich in der Erprobungsphase und ein genauer Zeitplan muss noch festgelegt werden.
  Der Workshop wird regelmäßige Pausen beinhalten. <a href="mailto:{{page.email}}">Bitte wende Dich an die Organisatoren des Workshops</a>, wenn Du weitere Informationen über den geplanten Zeitplan wünschst.
+
+ <div class="row">        <!-- first two days -->
+  <div class="col-md-6"> <!-- left column -->
+    <table class="table table-striped">
+      <tr>               <!-- row 1   -->
+        <td>Bevor es los geht</td>
+        <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
+      </tr>
+      <tr>               <!-- row 2   -->
+        <td>9:00</td>        <!-- time    -->
+        <td>Vorstellung und Intro</td>        <!-- content -->
+      </tr>
+      <tr>               <!-- row 3   -->
+        <td>9:30</td>        <!-- time    -->
+        <td>Block 1</td>        <!-- content -->
+      </tr>
+            <tr>               <!-- row 2   -->
+        <td>12:30</td>        <!-- time    -->
+        <td>Mittagspause</td>        <!-- content -->
+      </tr>
+      <tr>               <!-- row 3   -->
+        <td>13:30</td>        <!-- time    -->
+        <td>Block 2</td>        <!-- content -->
+      </tr>
+            <tr>               <!-- row 3   -->
+        <td>16:30</td>        <!-- time    -->
+        <td>Recap & Feedback</td>        <!-- content -->
+      </tr>
+    </table>
+  </div>
+</div>
+
 {% endif %}
 
 <hr/>
