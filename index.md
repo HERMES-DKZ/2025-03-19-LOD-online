@@ -113,7 +113,7 @@ Melde Dich an, um künftige Ausgaben zu erhalten und unser vollständiges Archiv
 {% if site.pilot %}
 
 
-Dies ist ein Pilot-Workshop, in dem eine Lektion getestet wird, die noch in der Entwicklung ist. Die Autoren der Lektion freuen sich über jedes Feedback zum Inhalt der Lektion und über Vorschläge, wie sie weiter verbessert werden kann.
+<p>Dies ist ein Pilot-Workshop, in dem eine Lektion getestet wird, die noch in der Entwicklung ist. Die Autoren der Lektion freuen sich über jedes Feedback zum Inhalt der Lektion und über Vorschläge, wie sie weiter verbessert werden kann.</p>
 
 {% endif %}
 
@@ -170,7 +170,7 @@ address.
 {% elsif online == "true_private" %}
 <p id="where">
   <strong>Wo:</strong> Dieser Workshop findet online statt.
-  Die Instructor und Workshop-Hosts werden Dir die Informationen geben, die du für die Teilnahme an diesem Treffen benötigst.
+  Die Workshop-Hosts werden Dir die Informationen geben, die du für die Teilnahme an diesem Treffen benötigst.
 </p>
 {% endif %}
 
@@ -396,8 +396,8 @@ how one of these schedule tables is constructed.
 {% endcomment %}
 
 {% if site.pilot %}
- Dieser Workshop befindet sich in der Erprobungsphase und ein genauer Zeitplan muss noch festgelegt werden.
- Der Workshop wird regelmäßige Pausen beinhalten. <a href="mailto:{{page.email}}">Bitte wende Dich an die Organisatoren des Workshops</a>, wenn Du weitere Informationen über den geplanten Zeitplan wünschst.
+ <p>Dieser Workshop befindet sich in der Erprobungsphase und ein genauer Zeitplan muss noch festgelegt werden.
+ Der Workshop wird regelmäßige Pausen beinhalten. <a href="mailto:{{page.email}}">Bitte wende Dich an die Organisatoren des Workshops</a>, wenn Du weitere Informationen über den geplanten Zeitplan wünschst.</p>
 
  <div class="row">        <!-- first two days -->
   <div class="col-md-6"> <!-- left column -->
