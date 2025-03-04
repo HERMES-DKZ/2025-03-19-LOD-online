@@ -82,7 +82,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endif %}
 
 
-<h2 id="general">General Information</h2>
+<h2 id="general">Allgemeine Informationen</h2>
 
 {% comment %}
 INTRODUCTION
@@ -98,8 +98,8 @@ href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data
 Helpern und Supportern, die sich zum Ziel gesetzt haben, Forschenden Grundkenntnisse in Informatik und Datenwissenschaft zu vermitteln.
 <p align="center">
   <em>
-  <strong>Möchten Sie mehr erfahren und mit The Carpentries verbunden bleiben?</strong> Carpentries Clippings ist der zweiwöchentlich erscheinende Newsletter von The Carpentries, in dem wir Neuigkeiten aus der Community, Stellenausschreibungen und vieles mehr mitteilen.
-Melden Sie sich an, um künftige Ausgaben zu erhalten und unser vollständiges Archiv zu lesen: <a href="https://carpentries.org/newsletter/">https://carpentries.org/newsletter/</a>
+  <strong>Möchtest Du mehr erfahren und mit The Carpentries verbunden bleiben?</strong> Carpentries Clippings ist der zweiwöchentlich erscheinende Newsletter von The Carpentries, in dem wir Neuigkeiten aus der Community, Stellenausschreibungen und vieles mehr mitteilen.
+Melde Dich an, um künftige Ausgaben zu erhalten und unser vollständiges Archiv zu lesen: <a href="https://carpentries.org/newsletter/">https://carpentries.org/newsletter/</a>
   </em>
 </p>
 {% if site.carpentry == "swc" %}
@@ -111,7 +111,10 @@ Melden Sie sich an, um künftige Ausgaben zu erhalten und unser vollständiges A
 {% endif %}
 
 {% if site.pilot %}
+
+
 Dies ist ein Pilot-Workshop, in dem eine Lektion getestet wird, die noch in der Entwicklung ist. Die Autoren der Lektion freuen sich über jedes Feedback zum Inhalt der Lektion und über Vorschläge, wie sie weiter verbessert werden kann.
+
 {% endif %}
 
 {% comment %}
@@ -167,7 +170,7 @@ address.
 {% elsif online == "true_private" %}
 <p id="where">
   <strong>Wo:</strong> Dieser Workshop findet online statt.
-  Die Instructor und Workshop-Hosts werden Ihnen die Informationen geben, die Sie für die Teilnahme an diesem Treffen benötigen.
+  Die Instructor und Workshop-Hosts werden Dir die Informationen geben, die du für die Teilnahme an diesem Treffen benötigst.
 </p>
 {% endif %}
 
@@ -198,7 +201,7 @@ Modify the block below if there are any special requirements.
     Die Teilnehmer:innen müssen einen Laptop mit einem
     Mac-, Linux- oder Windows-Betriebssystem (kein Tablet, Chromebook usw.) mitbringen, auf dem sie über administrative Rechte verfügen.
   {% endif %}
-   Sie sollten einige spezielle Softwarepakete installiert haben (siehe <a href="#setup">unten</a>).
+   Sie sollten zudem einige spezielle Softwarepakete installiert haben (siehe <a href="#setup">unten</a>).
 </p>
 
 {% comment %}
@@ -222,10 +225,10 @@ special instructions.
 <p>Wir sind bestrebt, ein positives und zugängliches Lernumfeld für alle zu schaffen. 
   Wir verlangen von den Teilnehmer:innen keine Unterlagen über Behinderungen oder die Offenlegung unnötiger persönlicher Informationen. 
   Wir möchten jedoch dazu beitragen, dass alle Teilnehmer:innen ein integratives, zugängliches Erlebnis haben. 
-  Wir ermutigen Sie, uns alle Informationen mitzuteilen, die hilfreich sind, um Ihre Carpentries-Erfahrung zugänglich zu machen.
-  Um eine Hilfsmittel für diesen Workshop zu beantragen, füllen Sie bitte das  
+  Wir ermutigen Dich, uns alle Informationen mitzuteilen, die hilfreich sind, um Deine Carpentries-Erfahrung zugänglich zu machen.
+  Um eine Hilfsmittel für diesen Workshop zu beantragen, fülle bitte das  
   <a href="https://carpentries.typeform.com/to/B2OSYaD0"> Formular zur Beantragung</a> aus.
-  Wenn Sie Fragen haben oder Hilfe beim Ausfüllen des Formulars benötigen, schreiben Sie uns bitte eine <a href="mailto:team@carpentries.org">E-Mail</a> 
+  Wenn Du Fragen hast oder Hilfe beim Ausfüllen des Formulars benötigst, schreibe uns bitte eine <a href="mailto:team@carpentries.org">E-Mail</a> 
   an uns.
 </p>
 <p>
@@ -261,7 +264,7 @@ Display the contact email address set in the configuration file.
 <p id="roles">
   <strong>Rollen:</strong>
   Um mehr über die Rollen beim Workshop zu erfahren (wer was macht),
-  lesen Sie <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">unsere Workshop-FAQs</a>.
+  lese <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">unsere Workshop-FAQs</a>.
 </p>
 
 {% comment %}
@@ -331,7 +334,7 @@ Wir werden dieses <a href="{{ page.collaborative_notes }}">kollaborative Dokumen
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Umfragen</h2>
-<p>Bitte stellen Sie sicher, dass Sie diese Umfragen vor und nach dem Workshop ausfüllen.</p>
+<p>Bitt stell sicher, dass Du diese Umfragen vor und nach dem Workshop ausfüllst.</p>
 {% if site.carpentry == "incubator" %}
 <p><a href="{{ site.incubator_pre_survey }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.incubator_post_survey }}">Post-workshop Survey</a></p>
@@ -383,8 +386,7 @@ of code below the Schedule `<h2>` header below with
 {% elsif site.carpentry == "lc" %}
 {% include lc/schedule.html %}
 {% elsif site.carpentry == "incubator" %}
-This workshop is teaching a lesson in 
-<a href="https://carpentries-incubator.org/">The Carpentries Incubator</a>. Please check <a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for a list of lesson sections and estimated timings.
+
 {% endif %}
 
 {% comment %}
@@ -394,7 +396,8 @@ how one of these schedule tables is constructed.
 {% endcomment %}
 
 {% if site.pilot %}
-The lesson taught in this workshop is being piloted and a precise schedule is yet to be established. The workshop will include regular breaks. Please <a href="mailto:{{page.email}}">contact the workshop organisers</a> if you would like more information about the planned schedule.
+ Dieser Workshop befindet sich in der Erprobungsphase und ein genauer Zeitplan muss noch festgelegt werden.
+ Der Workshop wird regelmäßige Pausen beinhalten. <a href="mailto:{{page.email}}">Bitte wende Dich an die Organisatoren des Workshops</a>, wenn Du weitere Informationen über den geplanten Zeitplan wünschst.
 {% endif %}
 
 <hr/>
@@ -415,7 +418,7 @@ please preview your site before committing, and make sure to run
 <h2 id="setup">Setup</h2>
 
 <p>
-  Zur Teilnahme an einem
+  Zur Teilnahme am
   {% if site.carpentry == "swc" %}
   Software Carpentry
   {% elsif site.carpentry == "dc" %}
@@ -424,8 +427,8 @@ please preview your site before committing, and make sure to run
   Library Carpentry
   {% endif %}
   Workshop,
-  benötigen Sie Zugang zu der unten beschriebenen Software.
-  Darüber hinaus benötigen Sie einen aktuellen Webbrowser.
+  benötigst Du Zugang zu der unten beschriebenen Software.
+  Darüber hinaus benötist Du einen aktuellen Webbrowser.
 </p>
 <p>
   Wir führen eine Liste mit häufigen Problemen, die während der Installation auftreten, als Referenz für Instructor
