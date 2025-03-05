@@ -1,59 +1,65 @@
 <div id="openrefine">
   <h3>OpenRefine</h3>
   <p>
-    Für diesen Workshop benötigst du die Software <em>OpenRefine</em> und einen Webbrowser. <em>Hinweis:</em> OpenRefine ist ein Java Programm, welches lokal 
-    in deinem Webbrowser läuft (nicht auf einem Server). 
-    Es läuft zwar innerhalb eines Webbrowsers, aber es ist daher keine Internetverbindung erforderlich.
+      Für diesen Workshop benötigst du die Software <em>OpenRefine</em> sowie einen Webbrowser.  
+      <em>Hinweis:</em> OpenRefine ist ein Java-Programm, das lokal in deinem Webbrowser ausgeführt wird – es läuft also nicht auf einem Server.  
+      Obwohl die Anwendung im Browser läuft, ist keine Internetverbindung erforderlich.  
   </p>
 
   <div>
     <ul class="nav nav-tabs" role="tablist">
-      <li role="presentation" class="active"><a data-os="windows" href="#openrefine-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
-      <li role="presentation"><a data-os="macos" href="#openrefine-macos" aria-controls="MacOS" role="tab" data-toggle="tab">MacOS</a></li>
-      <li role="presentation"><a data-os="linux" href="#openrefine-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
+        <li role="presentation" class="active"><a data-os="windows" href="#openrefine-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
+        <li role="presentation"><a data-os="macos" href="#openrefine-macos" aria-controls="MacOS" role="tab" data-toggle="tab">MacOS</a></li>
+        <li role="presentation"><a data-os="linux" href="#openrefine-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
     </ul>
 
-    <div class="tab-content">
-      <article role="tabpanel" class="tab-pane active" id="openrefine-windows">
-        <ol>
-          <li>
-            Check that you have either the Firefox or the Chrome browser installed and set as your default browser.
-            <strong>OpenRefine runs in your default browser.</strong>
-            It will not run correctly in Internet Explorer.
-          </li>
-          <li>Download software from <a href="http://openrefine.org/">http://openrefine.org/</a></li>
-          <li>Create a new directory called OpenRefine.</li>
-          <li>Unzip the downloaded file into the OpenRefine directory by right-clicking and selecting "Extract ...". </li>
-          <li>Go to your newly created OpenRefine directory.</li>
-          <li>Launch OpenRefine by clicking <code>openrefine.exe</code> (this will launch a command prompt window, but you can ignore that - just wait for OpenRefine to open in the browser).</li>
-          <li>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</li>
-        </ol>
-      </article>
-      <article role="tabpanel" class="tab-pane" id="openrefine-macos">
-        <ol>
-          <li>Check that you have either the Firefox or the Chrome browser installed and set as your default browser. <strong>OpenRefine runs in your default browser.</strong> It may not run correctly in Safari.</li>
-          <li>Download software from <a href="http://openrefine.org/">http://openrefine.org/</a>.</li>
-          <li>Create a new directory called OpenRefine.</li>
-          <li>Unzip the downloaded file into the OpenRefine directory by double-clicking it.</li>
-          <li>Go to your newly created OpenRefine directory.</li>
-          <li>Launch OpenRefine by dragging the icon into the Applications folder.</li>
-          <li>Use <kbd>Ctrl</kbd>-click/Open ... to launch it.</li>
-          <li>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</li>
-        </ol>
-      </article>
-      <article role="tabpanel" class="tab-pane" id="openrefine-linux">
-        <ol>
-          <li>Check that you have either the Firefox or the Chrome browser installed and set as your default browser. <strong>OpenRefine runs in your default browser.</strong></li>
-          <li>Download software from <a href="http://openrefine.org/">http://openrefine.org/</a>.</li>
-          <li>Make a directory called OpenRefine.</li>
-          <li>Unzip the downloaded file into the OpenRefine directory.</li>
-          <li>Go to your newly created OpenRefine directory.</li>
-          <li>Launch OpenRefine by entering <code>./refine</code> into the terminal within the OpenRefine directory.</li>
-          <li>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</li>
-        </ol>
-      </article>
-    </div>
+    <div>
+      <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a data-os="windows" href="#openrefine-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
+          <li role="presentation"><a data-os="macos" href="#openrefine-macos" aria-controls="MacOS" role="tab" data-toggle="tab">MacOS</a></li>
+          <li role="presentation"><a data-os="linux" href="#openrefine-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
+      </ul>
+  
+      <div class="tab-content">
+          <article role="tabpanel" class="tab-pane active" id="openrefine-windows">
+              <ol>
+                  <li>
+                      Stelle sicher, dass du entweder den Firefox- oder Chrome-Browser installiert und als Standardbrowser festgelegt hast.
+                      <strong>OpenRefine läuft in deinem Standardbrowser.</strong>
+                      Es funktioniert nicht richtig mit Internet Explorer.
+                  </li>
+                  <li>Lade die Software von <a href="http://openrefine.org/">http://openrefine.org/</a> herunter.</li>
+                  <li>Erstelle ein neues Verzeichnis namens OpenRefine.</li>
+                  <li>Entpacke die heruntergeladene Datei im neuen Verzeichnis, indem du mit der rechten Maustaste klickst und "Extrahieren ..." auswählst.</li>
+                  <li>Wechsle in das neu erstellte OpenRefine-Verzeichnis.</li>
+                  <li>Starte OpenRefine, indem du auf <code>openrefine.exe</code> klickst (es öffnet sich ein Eingabeaufforderungsfenster, das du ignorieren kannst – warte einfach, bis OpenRefine im Browser startet).</li>
+                  <li>Falls du einen anderen Browser verwendest oder OpenRefine nicht automatisch geöffnet wird, rufe in deinem Browser <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> oder <a href="http://localhost:3333">http://localhost:3333</a> auf, um das Programm zu nutzen.</li>
+              </ol>
+          </article>
+          <article role="tabpanel" class="tab-pane" id="openrefine-macos">
+              <ol>
+                  <li>Stelle sicher, dass du entweder den Firefox- oder Chrome-Browser installiert und als Standardbrowser festgelegt hast. <strong>OpenRefine läuft in deinem Standardbrowser.</strong> Es funktioniert möglicherweise nicht richtig mit Safari.</li>
+                  <li>Lade die Software von <a href="http://openrefine.org/">http://openrefine.org/</a> herunter.</li>
+                  <li>Nun hast du eine DMG Datei, die du durch Doppelklicken öffnest.</li>
+                  <li>Es erscheint eine neues Fenster: Ziehe dort das OpenRefine-Symbol in den Programme-Ordner.</li>
+                  <li>Starte nun OpenRefine, indem auf das OpenRefine-Symbol im Programme-Ordner klickst. Es sollte sich nun ein Browserfenster mit der Benutzeroberfläche von OpenRefine öffnen. <em>Hinweis:</em> Falls du eine Fehlermeldung "OpenRefine cannot be opened because the developer cannot be verified" erhälst, kannst den Anweisungen auf <a href="https://support.apple.com/de-de/guide/mac-help/mh40616/mac">dieser Seite</a> folgen, um OpenRefine dennoch zu öffnen.</li>
+                  <li>Falls du einen anderen Browser verwendest oder OpenRefine nicht automatisch geöffnet wird, rufe in deinem Browser <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> oder <a href="http://localhost:3333">http://localhost:3333</a> auf, um das Programm zu nutzen.</li>
+              </ol>
+          </article>
+          <article role="tabpanel" class="tab-pane" id="openrefine-linux">
+              <ol>
+                  <li>Stelle sicher, dass du entweder den Firefox- oder Chrome-Browser installiert und als Standardbrowser festgelegt hast. <strong>OpenRefine läuft in deinem Standardbrowser.</strong></li>
+                  <li>Lade die Software von <a href="http://openrefine.org/">http://openrefine.org/</a> herunter.</li>
+                  <li>Erstelle ein Verzeichnis namens OpenRefine.</li>
+                  <li>Entpacke die heruntergeladene Datei in das OpenRefine-Verzeichnis.</li>
+                  <li>Wechsle in das neu erstellte OpenRefine-Verzeichnis.</li>
+                  <li>Starte OpenRefine, indem du im Terminal innerhalb des OpenRefine-Verzeichnisses <code>./refine</code> eingibst.</li>
+                  <li>Falls du einen anderen Browser verwendest oder OpenRefine nicht automatisch geöffnet wird, rufe in deinem Browser <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> oder <a href="http://localhost:3333">http://localhost:3333</a> auf, um das Programm zu nutzen.</li>
+              </ol>
+          </article>
+      </div>
   </div>
+
 </div>
 <div id="rdf-transform">
   <h3>OpenRefine-Erweiterung RDF Transform</h3>
@@ -71,17 +77,19 @@
     <div class="tab-content">
       <article role="tabpanel" class="tab-pane active" id="rdf-transform-windows">
         <ol>
-          <li>Find your workspace by opening Open Refine</li>
-          <li>Click Open Project in the sidebar. At the bottom of the screen, click Browse workspace directory. A file-explorer or finder window will open in your workspace. Note that path</li>
-          <li>If not already there, create a folder called "extensions" and unzip the rdf-transform data into that directory.</li>
-          <li>Restart OpenRefine</li>
+          <li>Entpacke die ZIP-Datei.</li>
+          <li>Verschiebe den entpackten Ordner `rdf-transform` in ein Verzeichnis mit dem Namen `extensions` innerhalb deines OpenRefine-Arbeitsbereichs. <em>Hinweis:</em> Du kannst den Pfad zu Deinem OpenRefine-Arbeitsbereich finden,
+             indem Du OpenRefine startest und in der Seitenleiste auf "Open Project“ klickst. 
+            Klicke anschließend am unteren Rand des Bildschirms auf „Browse workspace directory“. 
+            Es sollte sich ein Finder-Fenster mit dem Pfad `C:/Documents and Settings/<user>/ApplicationData/OpenRefine` OR `C:/Documents and Settings/<user>/Local Settings/Application Data/OpenRefine` öffnen.</li>
+          <li>Beende und starte OpenRefine neu.</li>
         </ol>
       </article>
       <article role="tabpanel" class="tab-pane" id="rdf-transform-macos">
         <ol>
           <li>Entpacke die ZIP-Datei.</li>
           <li>Verschiebe den entpackten Ordner `rdf-transform` in ein Verzeichnis mit dem Namen `extensions` innerhalb deines OpenRefine-Arbeitsbereichs. <em>Hinweis:</em> Du kannst den Pfad zu Deinem OpenRefine-Arbeitsbereich finden,
-             indem Du OpenRefine starten und in der Seitenleiste auf "Open Project“ klickst. 
+             indem Du OpenRefine startest und in der Seitenleiste auf "Open Project“ klickst. 
             Klicke anschließend am unteren Rand des Bildschirms auf „Browse workspace directory“. 
             Es sollte sich ein Finder-Fenster mit dem Pfad `~/Library/Application Support/OpenRefine` öffnen.</li>
           <li>Beende und starte OpenRefine neu.</li>
@@ -89,10 +97,12 @@
       </article>
       <article role="tabpanel" class="tab-pane" id="rdf-transform-linux">
         <ol>
-          <li>Find your workspace by opening Open Refine</li>
-          <li>Click Open Project in the sidebar. At the bottom of the screen, click Browse workspace directory. A file-explorer or finder window will open in your workspace. Note that path</li>
-          <li>If not already there, create a folder called "extensions" and unzip the rdf-transform data into that directory.</li>
-          <li>Restart OpenRefine</li>
+          <li>Entpacke die ZIP-Datei.</li>
+          <li>Verschiebe den entpackten Ordner `rdf-transform` in ein Verzeichnis mit dem Namen `extensions` innerhalb deines OpenRefine-Arbeitsbereichs. <em>Hinweis:</em> Du kannst den Pfad zu Deinem OpenRefine-Arbeitsbereich finden,
+             indem Du OpenRefine startest und in der Seitenleiste auf "Open Project“ klickst. 
+            Klicke anschließend am unteren Rand des Bildschirms auf „Browse workspace directory“. 
+            Es sollte sich ein Finder-Fenster mit dem Pfad `~/.local/share/OpenRefine` öffnen.</li>
+          <li>Beende und starte OpenRefine neu.</li>
         </ol>
       </article>
     </div>
