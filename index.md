@@ -10,7 +10,7 @@ language: "de"     # lowercase two-letter ISO language code such as "fr" (see ht
 latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-1"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "19.3.2025"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9:00 - 17:00 Uhr"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
+humantime: "9:00 – 17:00 Uhr"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2025-03-19      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2025-03-19        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Julia Tolksdorf", "Robert Zwick"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -94,7 +94,7 @@ the pitch.
 <p>
 <strong><a href="https://carpentries.org">Das Carpentries</a></strong>-Projekt umfasst die <a
 href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data Carpentry</a>, und
-<a href="{{site.lc_site}}">Library Carpentry</a> Communities von Instructorn, Trainern, Maintainern,
+<a href="{{site.lc_site}}">Library Carpentry</a> Communities von Instructoren, Trainern, Maintainern,
 Helpern und Supportern, die sich zum Ziel gesetzt haben, Forschenden Grundkenntnisse in Informatik und Datenwissenschaft zu vermitteln.
 <p align="center">
   <em>
@@ -170,7 +170,7 @@ address.
 {% elsif online == "true_private" %}
 <p id="where">
   <strong>Wo:</strong> Dieser Workshop findet online statt.
-  Die Workshop-Hosts werden Dir die Informationen geben, die du für die Teilnahme an diesem Treffen benötigst.
+  Die Workshop-Hosts werden Dir die Informationen geben, die Du für die Teilnahme an diesem Treffen benötigst.
 </p>
 {% endif %}
 
@@ -246,7 +246,7 @@ Display the contact email address set in the configuration file.
   {% if page.email %}
   {% for email in page.email %}
   {% if forloop.last and page.email.size > 1 %}
-  or
+  oder
   {% else %}
   {% unless forloop.first %}
   ,
@@ -396,7 +396,7 @@ how one of these schedule tables is constructed.
 
 {% if site.pilot %}
  <p>Dieser Workshop befindet sich in der Erprobungsphase und ein genauer Zeitplan muss noch festgelegt werden.
- Der Workshop wird regelmäßige Pausen beinhalten. <a href="mailto:{{page.email}}">Bitte wende Dich an die Organisatoren des Workshops</a>, wenn Du weitere Informationen über den geplanten Zeitplan wünschst.</p>
+ Der Workshop wird regelmäßige Pausen beinhalten. <a href="mailto:{{page.email}}">Bitte wende Dich an die Organisatoren des Workshops</a>, wenn Du weitere Informationen zu den geplanten Zeiten wünschst.</p>
 
  <div class="row">        <!-- first two days -->
   <div class="col-md-6"> <!-- left column -->
