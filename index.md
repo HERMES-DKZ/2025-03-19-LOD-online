@@ -225,11 +225,7 @@ special instructions.
 <p>Wir sind bestrebt, ein positives und zugängliches Lernumfeld für alle zu schaffen. 
   Wir verlangen von den Teilnehmer:innen keine Unterlagen über Behinderungen oder die Offenlegung unnötiger persönlicher Informationen. 
   Wir möchten jedoch dazu beitragen, dass alle Teilnehmer:innen ein integratives, zugängliches Erlebnis haben. 
-  Wir ermutigen Dich, uns alle Informationen mitzuteilen, die hilfreich sind, um Deine Carpentries-Erfahrung zugänglich zu machen.
-  Um eine Hilfsmittel für diesen Workshop zu beantragen, fülle bitte das  
-  <a href="https://carpentries.typeform.com/to/B2OSYaD0"> Formular zur Beantragung</a> aus.
-  Wenn Du Fragen hast oder Hilfe beim Ausfüllen des Formulars benötigst, schreibe uns bitte eine <a href="mailto:team@carpentries.org">E-Mail</a> 
-  an uns.
+  Wir ermutigen Dich, uns alle Informationen mitzuteilen, die hilfreich sind, um Dir eine gute Workshoperfahrung zu bieten. Dazu melde dich gerne bei den Workshop Organisatoren.
 </p>
 <p>
   <a href="https://glosario.carpentries.org/">Glosario</a> ist ein mehrsprachiges Glossar für Begriffe aus dem Bereich Informatik und Datenwissenschaft. Das Glossar hilft Lernenden, die an Workshops teilnehmen und unsere Lektionen nutzen, den Sinn von Computer- und Programmierjargon in englischer Sprache zu verstehen, indem es in ihrer Muttersprache angeboten wird. Die Übersetzung von Begriffen aus der Datenwissenschaft ist auch ein Lehrmittel für Carpentries-Lehrer, um Barrieren für ihre Lernenden abzubauen.
@@ -296,14 +292,9 @@ CODE OF CONDUCT
 <h2 id="code-of-conduct">Code of Conduct</h2>
 
 <p>
-Jeder, der an den Aktivitäten von The Carpentries teilnimmt, ist verpflichtet, den <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Verhaltenskodex</a> einzuhalten. In diesem Dokument wird auch beschrieben, wie ein Vorfall zu melden ist.
+Jeder, der an den Aktivitäten von The Carpentries teilnimmt, ist verpflichtet, den <a href="https://docs.carpentries.org/policies/coc/">Verhaltenskodex</a> einzuhalten.
 </p>
 
-<p class="text-center">
-  <a href="https://goo.gl/forms/KoUfO53Za3apOuOK2">
-    <button type="button" class="btn btn-info">Einen Code of Conduct Vorfall melden</button>
-  </a>
-</p>
 <hr/>
 
 
