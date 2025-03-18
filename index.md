@@ -401,10 +401,7 @@ how one of these schedule tables is constructed.
  <div class="row">        <!-- first two days -->
   <div class="col-md-6"> <!-- left column -->
     <table class="table table-striped">
-      <tr>               <!-- row 1   -->
-        <td>Bevor es los geht</td>
-        <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
-      </tr>
+
       <tr>               <!-- row 2   -->
         <td>9:00</td>        <!-- time    -->
         <td>Vorstellung und Intro</td>        <!-- content -->
